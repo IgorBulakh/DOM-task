@@ -26,8 +26,10 @@ decrementRef.addEventListener("click", (even) => {
   // counterValue.textContent = even.target.value--;
   console.log(valueNumberRef);
 });
+
 incrementRef.addEventListener("click", (even) => {
   valueNumberRef += 1;
+
   counterValue.textContent = valueNumberRef;
   // counterValue.textContent = even.target.value++;
 

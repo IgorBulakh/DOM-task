@@ -9,16 +9,16 @@ const ingredients = [
 ];
 
 let listRef = document.querySelector("#ingredients");
-
-// const addListRef = ingredients.reduce(
-//   (elem, item) => elem + `<li>${item}</li>`,
-//   ""
-// );
-// listRef.innerHTML = addListRef;
-
+/*
+const addListRef = ingredients.reduce(
+  (elem, item) => elem + `<li>${item}</li>`,
+  ""
+);
+listRef.innerHTML = addListRef;
+*/
 const creatList = ingredients.forEach((ingridient) => {
   let itemRef = document.createElement("li");
-  itemRef.innerHTML = ingridient;
+  itemRef.textContent = ingridient;
 
   listRef.append(itemRef);
 });

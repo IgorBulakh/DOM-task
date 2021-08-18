@@ -1,0 +1,8 @@
+.gallery {
+  /* display: flex; */
+  list-style: none;
+}
+.img-js {
+  width: 450px;
+  /* height: 150px; */
+}
