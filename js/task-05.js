@@ -5,7 +5,7 @@
 let inputRef = document.querySelector("#name-input");
 let spanRef = document.querySelector("#name-output");
 
-inputRef.addEventListener("change", handlerValue);
+inputRef.addEventListener("input", handlerValue);
 
 function handlerValue(event) {
   inputRef = event.target.value;
