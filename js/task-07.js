@@ -3,14 +3,12 @@
 */
 
 let spanTextRef = document.querySelector("#text");
-console.log(spanTextRef);
 
 let inputRef = document.querySelector("#font-size-control");
 
 inputRef.addEventListener("input", (event) => {
   // let sizeVal = event.target.value;
   let sizeVal = inputRef.value;
-  console.log(sizeVal);
 
   spanTextRef.style.fontSize = sizeVal + "px";
 });
